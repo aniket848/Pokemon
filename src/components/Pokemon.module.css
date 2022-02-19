@@ -1,0 +1,21 @@
+.mainPage{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-column-gap: 30px;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.heading{
+    display: block;
+    margin:20px auto;
+    text-align: center;
+}
+
+.input{
+    width:50%;
+    text-align: center;
+    margin:auto;
+}
